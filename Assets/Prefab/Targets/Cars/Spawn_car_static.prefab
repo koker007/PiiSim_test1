@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1062109022946172}
+  m_IsPrefabParent: 1
+--- !u!1 &1062109022946172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4413581894933416}
+  - component: {fileID: 114038381431683568}
+  - component: {fileID: 23092430695281938}
+  - component: {fileID: 33755463923166130}
+  m_Layer: 0
+  m_Name: Spawn_car_static
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4413581894933416
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1062109022946172}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 191.32, y: 22.17, z: 69.23}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23092430695281938
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1062109022946172}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33755463923166130
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1062109022946172}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114038381431683568
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1062109022946172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0875524800f2734789d9a4e12bb099b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cars_police:
+  - {fileID: 1603850051981220, guid: 7e08379abf8422046be55196cbea88e4, type: 2}
+  - {fileID: 1541084662022690, guid: 5d2b2cffedffb754987e75da243c79c7, type: 2}
+  - {fileID: 1956849576433800, guid: 7cd28f48d2b5fd745b3e9cb52dfdcedf, type: 2}
+  cars_legkovay:
+  - {fileID: 1160748132870614, guid: a4a99ea145a823c4f9c0a1b065a92a05, type: 2}
+  - {fileID: 1826263617996802, guid: 9d905bf051c53db40b30df2b31a4f8b7, type: 2}
+  - {fileID: 1981967673413426, guid: 7bd5c955e8655714c8dbbbdbd92212c0, type: 2}
+  - {fileID: 1909844924663596, guid: ee1312654102ebe4792855eb7eec78ac, type: 2}
+  - {fileID: 1920440117611840, guid: e75b081031ab2264bba8d74f66c1d28b, type: 2}
+  cars_gruzovay:
+  - {fileID: 1672742726142026, guid: c266868517afc744c8b5679dac316d14, type: 2}
+  - {fileID: 1582938421185298, guid: ac23aac180e5245449f39c049b19ea16, type: 2}
+  - {fileID: 1061944554523828, guid: bb55e736a375da84083e66de16ed62b7, type: 2}
+  cars_avtobuss:
+  - {fileID: 1525770589946528, guid: c2b0dd2cb902da840b78bb00943fb2dc, type: 2}
+  - {fileID: 1250789333462760, guid: 3fccb20c4f8d7f54997513a7ee25e53a, type: 2}
+  void_ver: 50
+  police_ver: 50
+  police: 0
+  legkovaya_ver: 90
+  legkovaya: 1
+  gruzovaya_ver: 10
+  gruzovaya: 1
+  avtobuss_ver: 50
+  avtobuss: 0

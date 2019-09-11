@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1518620299846502}
+  m_IsPrefabParent: 1
+--- !u!1 &1518620299846502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4269561322054226}
+  - component: {fileID: 33461380017167802}
+  - component: {fileID: 65968111243512294}
+  - component: {fileID: 23690296713098002}
+  - component: {fileID: 114060241673417658}
+  m_Layer: 0
+  m_Name: AutoSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4269561322054226
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1518620299846502}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -14.84, y: 21.003479, z: 245.77}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23690296713098002
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1518620299846502}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33461380017167802
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1518620299846502}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65968111243512294
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1518620299846502}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114060241673417658
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1518620299846502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 404911f10d3263340ae77ae0f1be20d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autos:
+  - {fileID: 114757386933493744, guid: 11ad4bdd32a344f46b46c8462cff1439, type: 2}
+  - {fileID: 114790768237701022, guid: 6088493856c49f6419dc8f626a18e736, type: 2}
+  - {fileID: 114221953800710528, guid: 77781ff877618b04c9c576e4d146159e, type: 2}
+  - {fileID: 114480829640483594, guid: 1ca2de0ccdc70664eb639066ea92637a, type: 2}
+  - {fileID: 114715517643429506, guid: 0618d311880278c40998f37895bd69a9, type: 2}
+  - {fileID: 114576050574203658, guid: 008e018dff5319347a0a40cf8267525e, type: 2}
+  - {fileID: 114663712098234930, guid: 6f2a3f6dd63f1764da60964198402a32, type: 2}
+  - {fileID: 114806002857133740, guid: d1259bf161411c14ab6c8ea2e012a4b5, type: 2}
+  - {fileID: 114556770838681514, guid: 4d50652ddf28dd74ba37ede8e06b3aab, type: 2}
+  - {fileID: 114249873779309322, guid: 3acd599cf382cbd448231a0b8d32287e, type: 2}
+  - {fileID: 114327243576203064, guid: 739195ca5f87608458bba3554fd65d44, type: 2}
+  - {fileID: 114045032796445260, guid: 5994d1141eb67084da2cec97e61396bf, type: 2}
+  - {fileID: 114563461672763282, guid: e0196504ff75b0743ace53744cf28ead, type: 2}
+  - {fileID: 114041727132099470, guid: 54ee563474106ad46ab16181df947dff, type: 2}
+  - {fileID: 114287830549739522, guid: ef6fb29c8060a4d48afb66b5d0b340c8, type: 2}
+  - {fileID: 114328330208378344, guid: fbd3932f11c464b438a4ced9ab882b95, type: 2}
+  track_Points:
+  - {fileID: 0}
+  - {fileID: 0}
+  player: {fileID: 0}
+  timeout_spawn_mnozitel: 1
+  polise_need_siren: 0

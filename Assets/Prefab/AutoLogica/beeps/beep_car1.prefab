@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1383076088406030}
+  m_IsPrefabParent: 1
+--- !u!1 &1383076088406030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4942423619202708}
+  - component: {fileID: 114234451624749748}
+  m_Layer: 0
+  m_Name: beep_car1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4942423619202708
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1383076088406030}
+  m_LocalRotation: {x: 0.29168925, y: -0.30425537, z: 0.09844773, w: 0.90147334}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114234451624749748
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1383076088406030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e86be063aae654b4298f1684e640b06b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  signal_auto:
+  - {fileID: 8300000, guid: 79fabd58a13649f4799c6c89dc07f15f, type: 3}
+  - {fileID: 8300000, guid: 5a57dadc14fc6644294a36e977ac9d28, type: 3}
+  - {fileID: 8300000, guid: be6a4988ec739da4098861cebbc42b1c, type: 3}
+  - {fileID: 8300000, guid: 1dd34ab1bf1e124409a8d1beff51a783, type: 3}
+  - {fileID: 8300000, guid: 7bdd3866894dd33448218fcb1be5c7c6, type: 3}
